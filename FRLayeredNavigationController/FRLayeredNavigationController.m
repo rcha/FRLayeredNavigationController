@@ -647,7 +647,7 @@ typedef enum {
     if (animated) {
         [UIView animateWithDuration:0.5
                               delay:0
-                            options: UIViewAnimationCurveLinear
+                            options: UIViewAnimationOptionCurveLinear
                          animations:^{
                              vc.view.frame = goAwayFrame;
                          }
@@ -771,7 +771,7 @@ typedef enum {
     if(animated) {
         [UIView animateWithDuration:0.5
                               delay:0
-                            options: UIViewAnimationCurveEaseOut
+                            options: UIViewAnimationOptionCurveEaseOut
                          animations:^{
                              doNewFrameMove();
                          }
