@@ -61,7 +61,7 @@
 
             titleLabel.backgroundColor = [UIColor clearColor];
             titleLabel.text = titleText;
-            titleLabel.textAlignment = UITextAlignmentCenter;
+            titleLabel.textAlignment = NSTextAlignmentCenter;
 
 
             titleLabel.font = [titleTextAttrs objectForKey:UITextAttributeFont];
